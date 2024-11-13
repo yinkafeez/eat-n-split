@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* margin: 0 auto; */
+  text-align: center;
+  justify-content: center;
+}
+.App {
+  margin: 100px auto;
+  justify-content: center;
+  font-family: arial;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+}
+.friend-list {
+  margin: 0 auto;
+  max-width: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+.list {
+  display: grid;
+  grid-template-columns: 0.7fr 2.6fr 0.7fr;
+  gap: 10px;
+  padding-top: 20px;
+  text-align: left;
+}
+.friend-img {
+  border-radius: 50%;
+  height: 40px;
+}
+.friend-profile {
+  font-size: 15px;
+  font-weight: 600;
+}
+.name {
+  text-transform: capitalize;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+.btn {
+  border: none;
+  background: rgb(247, 166, 61);
+  border-radius: 8px;
+  padding: 0px 12px 0px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.add-friend-container {
+  margin: 35px auto;
+  max-width: 100%;
+}
+.add-friend-form {
+  background: rgb(247, 209, 215);
+  border-radius: 8px;
+  padding: 8px 12px 50px;
+  text-align: left;
+}
+.div-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-bottom: 10px;
+}
+.div-container label {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  padding-top: 10px;
+}
+.add-friend-input {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 7px 10px;
+}
+.add-friend-btn {
+  float: inline-end;
+  border: none;
+  background: rgb(247, 166, 61);
+  border-radius: 8px;
+  padding: 8px 75px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.add-friend-toggle {
+  float: inline-end;
+  border: none;
+  background: rgb(247, 166, 61);
+  border-radius: 8px;
+  padding: 8px 10px 8px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 22px;
+}
+.close {
+  float: inline-end;
+  border: none;
+  background: rgb(247, 166, 61);
+  border-radius: 8px;
+  padding: 10px 75px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.billSplit {
+  background: rgb(247, 209, 215);
+  padding: 25px 0px 5px;
+  padding-left: 35px;
+  border-radius: 8px;
+  width: 370px;
+  height: 275px;
+  text-align: left;
+}
+.header {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+}
+.form div {
+  display: grid;
+  grid-template-columns: 1.8fr 1.5fr;
+  column-gap: 10px;
+  text-align: left;
+  margin-top: 15px;
+}
+.form div label {
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.bill-input {
+  border: none;
+  border-radius: 4px;
+  width: 60%;
+  padding: 7px 0px 7px;
+  text-align: center;
+}
+.split-bill-btn {
+  margin-top: 15px;
+  border: none;
+  background: rgb(247, 166, 61);
+  border-radius: 4px;
+  height: 30px;
+  width: 26%;
+  margin-right: 68px;
+  font-size: 15px;
+  font-weight: 600;
+  float: inline-end;
+}
